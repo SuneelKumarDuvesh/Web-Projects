@@ -1,0 +1,106 @@
+body{
+      margin: 0;
+      padding:0;
+    /*  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('P3.jpg');*/
+          background-color:rgb(59, 131, 182);
+
+    
+     }
+
+.elem  {
+       
+       
+       background-color:black; 
+       position: relative;
+       opacity: 1; 
+       box-shadow: 3px 3px 30px skyblue;*/
+       width: 100%;
+    
+      }
+.elem ul{
+       margin:3px 5px;
+       padding: 5px 5px;
+       
+       }
+.elem ul li{
+       margin:2px 5px;
+       padding:1px 2px;
+       display: inline-block;
+
+           }
+.elem ul li a{
+       padding: 2px 5px;
+       text-decoration: none;
+       display: inline-block;
+       color: white;
+       opacity: 1;
+       font-size: 20px;
+       font-family:  century Verdana, Geneva, Tahoma, sans-serif ;
+       font-weight: bold;
+            }
+.elem ul li a.active{
+       color:black;
+       background-color: skyblue;
+       border: 1px solid black;
+       box-shadow: 1px 1px 1px 2px whitesmoke;
+       transition: 0.2s ease;
+       border-radius:3px;
+                     }
+.elem ul li a:hover:not(.active){
+       color:black;
+       background-color: skyblue;
+       border: 2px solid black;
+       box-shadow: 1px 1px  1px 2px white;
+       transition: 0.2s ease;
+       border-radius:3px;
+                                }
+
+.projects{
+        
+       position: relative;
+       margin: 100px 0px;
+       padding: 5px 20px;
+        width:100%;
+}
+.projects h2{
+       color:rgb(5, 189, 45);
+       font-size: 50px;
+}
+
+.projects div ul {
+       text-decoration: none;
+}
+.projects div ul li a {
+       text-decoration: none;
+        font-size: 30px;
+       font-weight: bold;
+       color: rgb(244, 250, 245);
+}
+.projects div ul li a:hover {
+
+       color:red;
+       font-size:35px ;
+       transition: 0.4s ease;
+
+
+               }
+.p{   /* border:3px solid green;*/
+       position: relative;
+       margin:200px 0px;
+       padding: 100px 20px;
+              width: 100%;
+
+}
+ button.top{
+            height: 60px;
+            width: 60px;
+            position: fixed;
+            top:80%;
+            right:3%;
+            border:none;
+            border-radius: 50px;
+            box-shadow: 6px 6px 15px skyblue;
+            color:white;
+            background-color:blue;
+            text-decoration: none;
+        }   
