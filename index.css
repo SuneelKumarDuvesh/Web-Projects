@@ -4,6 +4,9 @@ body{
      background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1)), url('alll.jpg');*/
 
      }
+.nav{
+      display:flex;
+}
 .elem  {
        
        top:0%;
