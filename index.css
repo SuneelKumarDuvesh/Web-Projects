@@ -1,85 +1,11 @@
 *{
-      margin:0;
-      padding:0;
-      box-sizing:border-box;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
-body{
-      margin: 0;
-      padding:0;
-      background:#000;
 
-     }
-.nav{
-      position:fixed;
-      top:0;
-      display:flex;
-      flex-direction:row;
-      width:100vw;
-      height:3em;
 
-}
-.elem  {
-       
-       top:0%;
-       background-color:black; 
-       position: relative;
-       opacity: 1; 
-       box-shadow: 3px 3px 30px skyblue;
-       position: absolute;
-       width: 100%;
-    
-      }
-.elem ul{
-       margin:3px 5px;
-       padding: 5px 5px;
-       
-       }
-.elem ul li{
-       margin:2px 5px;
-       padding:1px 2px;
-       display: inline-block;
-
-           }
-.elem ul li a{
-       padding: 2px 5px;
-       text-decoration: none;
-       display: inline-block;
-       color: white;
-       opacity: 1;
-       font-size: 20px;
-       font-family:  century Verdana, Geneva, Tahoma, sans-serif ;
-       font-weight: bold;
-
-            }
-.elem ul li a.active{
-       color:black;
-       background-color: skyblue;
-       border: 1px solid black;
-       box-shadow: 1px 1px 1px 3px whitesmoke;
-       transition: 0.2s ease;
-       border-radius:3px;
-}
-.elem ul li a:hover:not(.active){
-       color:black;
-       background-color: skyblue;
-       border: 2px solid black;
-       box-shadow: 1px 1px  1px 2px white;
-       transition: 0.2s ease;
-       border-radius:3px;
-}
-div h1{
-       color:white;
-       position: Relative;
-       top: 30%;
-       left:40%;
-       font-size: 70px;
-       padding: 5px 20px;
-       text-shadow: 2px 2px 2px 3px chartreuse;
-}
-h1:hover{
-       color:greenyellow;
-       background-color:transparent;
-       font-size: 75px;
-       transition: 1s ease;
-       box-shadow: 5px 5px 15px 5px blue;
+body
+{
+      background
 }
