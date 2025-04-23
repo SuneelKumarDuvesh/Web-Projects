@@ -1,11 +1,21 @@
 *{
   margin:0;
   padding:0;
-  box-sizing:border-box;
+  box-sizing: border-box;
+
 }
 
 
-body
-{
-      background-color:red;
+body{ 
+  display: flex;
+  position: relative;
+  background-color:rgb(1, 8, 43);
+  max-height:100vh;
+  max-width: 100vw;
+}
+nav{
+  position: fixed;
+  width: 100%;
+  height: 48xp;
+  background:rgb(0, 0, 41);
 }
